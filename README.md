@@ -108,7 +108,8 @@ If all is ok then we can proceed to actual script. <br />
 
 Modify script ```max_run.py``` and add: 
 IP and Port of Domoticz: 
-```DOMOTICZ_IP='192.168.XXX.XXX'
+``` 
+DOMOTICZ_IP='192.168.XXX.XXX'
 DOMOTICZ_PORT='8080'
 
 IP_CUBE='192.168.X.XXX'
