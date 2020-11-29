@@ -14,23 +14,26 @@ this integration was written to work with Home Assistant but using this library 
 
 ## Prereq: 
 
-EQ-3 Max cube needs to be connected to your network and thermostat paired. There is no logic for a room division but we are relaying on naming convention (like in original script created in lua for domoticz). When you pair devices with cube please name them with: 
-```<name of device>-Stat```
-On Domoticz instance please create a 3 virtual devices per one ```<name of device>-Stat``` device in EQ-3 Max cube. 
-```<name of device>-Stat``` - type of device: General Percentage, this will store the current open valve value
-```<name of device>-Rad```  - type of device: Thermostat SetPoint, this will store and update the target temperature
-```<name of device>-Sens``` - type of device: Temp, this is to get the read actual temperature from thermostat 
-**Note the <name of device> need to match between EQ-3 Max and Domoticz (including spaces etc). Please avoid using a special characters or local characters to allow smooth working as this script was fast written and is not design to detect and compensate on that.**
+EQ-3 Max cube needs to be connected to your network and thermostat paired. There is no logic for a room division but we are relaying on naming convention (like in original script created in lua for domoticz). When you pair devices with cube please name them with:<br />
+- `<name of device>-Stat`<br />
 
-For more detailed description on how to setup EQ-3 MAX and Domoticz please read: 
+On Domoticz instance please create a 3 virtual devices per one `<name of device>-Stat` device in EQ-3 Max cube. <br />
+
+- `<name of device>-Stat` - type of device: General Percentage, this will store the current open valve value <br />
+- `<name of device>-Rad`  - type of device: Thermostat SetPoint, this will store and update the target temperature <br />
+- `<name of device>-Sens` - type of device: Temp, this is to get the read actual temperature from thermostat <br />
+
+**Note the `<name of device>` need to match between EQ-3 Max and Domoticz (including spaces etc). Please avoid using a special characters or local characters to allow smooth working as this script was fast written and is not design to detect and compensate on that.**
+
+For more detailed description on how to setup EQ-3 MAX and Domoticz please read:  <br />
 https://www.domoticz.com/wiki/EQ3_MAX!#Installing_EQ3_MAX.21_Devices
 
 ## Install instructions: 
 
-** Note: this script was tested only on Linux and is only integrating a Thermostat as I've got only this devices in my setup**
+** Note: this script was tested only on Linux and is only integrating a Thermostat as I've got only this devices in my setup** <br />
 
-To operate you need to install:
-https://github.com/hackercowboy/python-maxcube-api
+To operate you need to install: <br />
+https://github.com/hackercowboy/python-maxcube-api <br />
 
 please use: 
 ``` pip install maxcube-api ```
