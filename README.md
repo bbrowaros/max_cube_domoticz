@@ -1,6 +1,6 @@
 # max_cube_domoticz
 Eq-3 max cube integration with domoticz via python <br /> <br />
-Please excuse me for the _dirty_ code as first I'm not a programmer and this code was developed in less then 30 min when I discovered that the original code was not working. 
+Please excuse me for the _dirty_ code as  I'm not a programmer and this code was developed in less then 30 min when I discovered that the original code was not working. 
 Feel free to modify it and adjust to your needs. I'm just publishing this as this is my aproach to resolve the problem which I've got. 
 
 ## Purpose
