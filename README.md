@@ -12,6 +12,8 @@ https://github.com/hackercowboy/python-maxcube-api
 
 this integration was written to work with Home Assistant but using this library and logic from original EQ3_MAX I was able to maintain the operation of my EQ-3 MAX integration with domoticz. This is a temporary solution and I'm working on creating a plugin to Domoticz. Don't know if this will be created. For now I'm publishing this script to help anyone who has problems with EQ3_MAX and Domoticz integration based on LUA. 
 
+**Note: this script was tested only on Linux and is only integrating a Thermostat as I've got only this devices in my setup**
+
 ## Prereq: 
 
 EQ-3 Max cube needs to be connected to your network and thermostat paired. There is no logic for a room division but we are relaying on naming convention (like in original script created in lua for domoticz). When you pair devices with cube please name them with:<br />
@@ -29,8 +31,6 @@ For more detailed description on how to setup EQ-3 MAX and Domoticz please read:
 https://www.domoticz.com/wiki/EQ3_MAX!#Installing_EQ3_MAX.21_Devices
 
 ## Install instructions: 
-
-** Note: this script was tested only on Linux and is only integrating a Thermostat as I've got only this devices in my setup** <br />
 
 To operate you need to install: <br />
 https://github.com/hackercowboy/python-maxcube-api <br />
