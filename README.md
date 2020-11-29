@@ -45,16 +45,16 @@ clone this git repository:
 
 Please make sure that the path to python is correct on top of the scripts:
 ``` #which python ``` in both scripts. 
-To test the communication please edit script: ``` max_test.py ``` and add a IP of Max cube: 
-``` cube = MaxCube(MaxCubeConnection('192.168.XXX.XXX', 62910)) ```
+To test the communication please edit script: ``` max_test.py ``` and add a IP of Max cube: <br />
+``` cube = MaxCube(MaxCubeConnection('192.168.XXX.XXX', 62910)) ``` <br />
 
-Change permissions of the script to execute: 
-``` chmod +x ./max_test.py ```
+Change permissions of the script to execute: <br />
+``` chmod +x ./max_test.py ``` <br />
 
-Then to test it you can execute: 
-``` ./max_test.py ```
+Then to test it you can execute: <br />
+``` ./max_test.py ``` <br />
 
-If all goes good you will receive: 
+If all goes good you will receive: <br />
 ```Room: Salon
 Device: Salon-Stat
 Room: Dzieci
@@ -101,7 +101,8 @@ Actual: None
 Target: 16.0
 Valve pos: 0
 ```
-If all is ok then we can proceed to actual script. **Note: at this step you need to have all devices in Domoticz setup so plase read the Prereq section**
+If all is ok then we can proceed to actual script. <br />
+**Note: at this step you need to have all devices in Domoticz setup so plase read the Prereq section**
 
 Modify script ```max_run.py``` and add: 
 IP and Port of Domoticz: 
@@ -131,6 +132,6 @@ Updating Termostat: Sypialnia-StatRead valve open: 0 Read temperature: None
 
 Script will autodetect the idx numbers of devices used in domoticz and perform checks. 
 
-##Make it constant running 
+## Make it constant running 
 
-I'm using a crontab to run this script every 1m: 
+I'm using a crontab to run this script every 1m
